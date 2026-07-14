@@ -3,13 +3,13 @@
 ## Project Overview
 This project builds a regression model to predict how much loan a bank or lender would actually sanction for an applicant, not simply whether they're approved, but the specific amount granted based on their financial and personal profile.
 
-## Business Question
+### Business Question
 Given an applicant's income, credit history, property details, and requested loan amount, how much will the lender actually sanction, and which factors most influence that decision?
 
-## Context
+### Context
 Loan applicants request a specific amount, but lenders don't always grant the full request, the sanctioned amount depends on risk factors like income stability, credit score, existing defaults, and co-applicant status. Modeling this gap between requested and sanctioned amount reflects a real underwriting decision lenders make, and helps quantify which applicant characteristics drive that decision.
 
-## Dataset
+### Dataset
 Applicant-level data including:
 - Demographics: Age, Gender, Profession, Type of Employment, Location
 - Financials: Income (USD), Income Stability, Credit Score, No. of Defaults, Has Active Credit Card
